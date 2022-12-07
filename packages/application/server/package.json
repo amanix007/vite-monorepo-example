@@ -1,0 +1,19 @@
+{
+  "name": "@vue-vite-monorepo/server",
+  "description": "Application Back-End",
+  "version": "1.0.0",
+  "main": "dist/server.umd.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build && node dist/server.umd.js"
+  },
+  "dependencies": {
+    "fastify": "^3.11.0",
+    "fastify-cors": "^5.2.0",
+    "fastify-swagger": "^4.1.1",
+    "@vue-vite-monorepo/customers.api": "*",
+    "@vue-vite-monorepo/inventory.api": "*",
+    "@vue-vite-monorepo/model": "*",
+    "@vue-vite-monorepo/utilities": "*"
+  }
+}

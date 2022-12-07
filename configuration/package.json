@@ -1,0 +1,6 @@
+{
+  "name": "@vue-vite-monorepo/configuration",
+  "description": "Build configurations",
+  "version": "1.0.0",
+  "module": "index.js"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@vue-vite-monorepo/model",
+  "description": "Application entity model",
+  "version": "1.0.0",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "vite build"
+  }
+}

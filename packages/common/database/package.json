@@ -1,0 +1,13 @@
+{
+  "name": "@vue-vite-monorepo/database",
+  "description": "Database provider for back-end packages",
+  "version": "1.0.0",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@vue-vite-monorepo/utilities": "*",
+    "@vue-vite-monorepo/model": "*"
+  }
+}

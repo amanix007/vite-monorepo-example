@@ -1,0 +1,15 @@
+{
+  "packages": [
+    "packages/common/utilities",
+    "packages/common/model",
+    "packages/common/database",
+    "packages/common/ui",
+    "packages/applets/customers/api",
+    "packages/applets/customers/ui",
+    "packages/applets/inventory/api",
+    "packages/applets/inventory/ui",
+    "packages/application/client",
+    "packages/application/server"
+  ],
+  "version": "1.0.0"
+}

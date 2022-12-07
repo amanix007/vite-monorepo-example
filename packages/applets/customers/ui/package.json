@@ -1,0 +1,16 @@
+{
+  "name": "@vue-vite-monorepo/customers.ui",
+  "description": "Customers UI",
+  "version": "1.0.0",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.2.19",
+    "vue-router": "^4.0.11",
+    "@vue-vite-monorepo/model": "*",
+    "@vue-vite-monorepo/ui": "*",
+    "@vue-vite-monorepo/utilities": "*"
+  }
+}

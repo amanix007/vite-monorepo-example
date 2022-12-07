@@ -1,0 +1,28 @@
+{
+  "name": "vue-vite-monorepo",
+  "version": "1.0.0",
+  "description": "Vue JS Monorepo with Lerna and Vite",
+  "scripts": {
+    "initialize": "npm install && npm run clean && lerna bootstrap",
+    "clean": "lerna clean --yes && lerna exec -- rm -rf dist",
+    "refresh": "lerna bootstrap",
+    "build": "lerna run build --stream",
+    "build:client": "lerna run build --stream --scope=@vue-vite-monorepo/client",
+    "build:api": "lerna run build --stream --scope=@vue-vite-monorepo/server",
+    "dev:client": "lerna run dev --stream --scope=@vue-vite-monorepo/client",
+    "dev:server": "lerna run dev --stream --scope=@vue-vite-monorepo/server"
+  },
+  "author": {
+    "name": "Tomasz Waraksa",
+    "email": "tomasz@waraksa.net",
+    "url": "https://letsdebug.it"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.1",
+    "@vue/compiler-sfc": "^3.0.5",
+    "lerna": "^4.0.0",
+    "sass": "^1.2.1",
+    "vite": "^2.6.3"
+  }
+}

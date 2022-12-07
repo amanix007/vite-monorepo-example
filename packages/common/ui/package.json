@@ -1,0 +1,13 @@
+{
+  "name": "@vue-vite-monorepo/ui",
+  "description": "Shared utilities for front-end packages",
+  "version": "1.0.0",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@vue-vite-monorepo/model": "*",
+    "@vue-vite-monorepo/utilities": "*"
+  }
+}

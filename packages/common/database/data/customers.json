@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "firstName": "Bob",
+    "lastName": "Marley"
+  },
+  {
+    "id": 2,
+    "firstName": "Mary",
+    "lastName": "Stanley"
+  },
+  {
+    "id": 3,
+    "firstName": "John",
+    "lastName": "Doe"
+  },
+  {
+    "id": 4,
+    "name": "ACME Ltd"
+  },
+  {
+    "id": 5,
+    "name": "Big Business Inc"
+  }
+]
